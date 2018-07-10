@@ -340,7 +340,6 @@
         <!-- members
           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <a id="teams"></a>
-        <!--<div class="element">Hi I'm element</div>-->
         <div class="section" style="text-align: center; color: #fff; background: #2a2a4e;">
             <div class="container">
                 <div style="padding: 10% 0; ">
@@ -527,6 +526,9 @@
         components: {
             'line-chart': Doughnut,
         },
+        mounted() {
+            import('aos').then(AOS => AOS.init());
+        }
     }
 
 

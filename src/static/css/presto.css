@@ -483,3 +483,26 @@ h6{
 .value li p{
     font-size: 3.3rem;
 }
+
+.menu_bar {
+    margin-top: 6rem;
+}
+
+.image-part {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    color:white;
+}
+
+h3.news_title {
+    margin-bottom:0px;
+    margin-left: 4%;
+    font-weight: bold;
+    color: #16213d;
+}
+h6.news_date {
+    margin-bottom:2px;
+    text-align:right;
+}

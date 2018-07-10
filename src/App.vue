@@ -5,13 +5,14 @@
     <nav id="nav-desktop" style="height: 40px">
       <div class='nav-wrap'>
         <h3 class="nav-logo">
-          <a href="#">
+          <router-link to="/">
             <img src='./static/img/prestologo.png'>
-          </a>
+          </router-link>
         </h3>
         <ul class="menu-group">
           <li><a href="#about-presto" class="scroll-to">Join in DAICO</a></li>
           <li><a href="#roadmap" class="scroll-to">Register DAICO</a></li>
+          <li><router-link to="/whats-new">What's New</router-link></li>
           <li><a href="#teams" class="scroll-to">DEX</a></li>
           <li><a href="#contact-us" class="scroll-to">Account</a></li>
         </ul>
